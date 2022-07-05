@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Duplicates Outputs</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Your duplicates file is ready to view</h1>
+<a th:href="@{|/download/duplicate/file?fileOutput=${fileOutput}|}" download="duplicates.csv">Download Duplicates file</span></a>
+<br/><br/>
+<a href="/">Upload Another File</a>
+
+</body>
+</html>
