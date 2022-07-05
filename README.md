@@ -1,10 +1,9 @@
-# find-csv-duplicates
+# Find CSV Duplicates
 
-Description:
-This repository includes the implementation of Vector Space model with the preprocessed cranfield dataset in JSON form.
+### Description:
+This repository code for getting the duplicate records from the provided csv file.
+- You can just clone this repo and get the code up with the Intellij or any other development environment.
+- It will have a UI to display the option to upload the source csv file and then download the duplicate file.
 
-You just need to install the dependencies mentioned below and run the Jupyter Notebook cell by cell.
-The last cell would allow to enter the query, (accepts only from cranqrel.json document), which would in turn output the top 9 results.
-Dependencies:
-Python 3.7
-NLTK (pip install nltk (windows))
+### Dependencies:
+  - Java Spring Boot - Java 1.8
